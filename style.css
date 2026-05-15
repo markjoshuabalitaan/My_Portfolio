@@ -75,3 +75,33 @@ section{
 .nav-links a:hover{
   color:#fff;
 }
+
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:60px;
+  flex-wrap:wrap;
+}
+
+.hero-text{
+  flex:1;
+  min-width:300px;
+}
+
+.hero-text h1{
+  font-size:4rem;
+  line-height:1.1;
+  margin-bottom:20px;
+}
+
+.hero-text h1 span{
+  color:#8c52ff;
+}
+
+.hero-text p{
+  color:#bdbdbd;
+  line-height:1.8;
+  margin-bottom:30px;
+  max-width:600px;
+}
