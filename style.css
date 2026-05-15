@@ -228,3 +228,30 @@ section{
 .skill:hover{
   background:#8c52ff;
 }
+
+.motor-card{
+  margin-top:40px;
+  background:rgba(255,255,255,0.05);
+  border-radius:25px;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,0.08);
+}
+
+.motor-card img{
+  width:100%;
+  height:260px;
+  object-fit:cover;
+}
+
+.motor-content{
+  padding:20px;
+}
+
+.motor-content h3{
+  margin-bottom:10px;
+}
+
+.motor-content p{
+  color:#bdbdbd;
+  line-height:1.7;
+}
