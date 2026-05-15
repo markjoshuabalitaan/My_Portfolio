@@ -55,3 +55,23 @@ section{
   z-index:999;
   border-bottom:1px solid rgba(255,255,255,0.05);
 }
+
+.logo{
+  font-size:1.3rem;
+  font-weight:700;
+}
+
+.nav-links{
+  display:flex;
+  gap:30px;
+}
+
+.nav-links a{
+  color:#d7d7d7;
+  text-decoration:none;
+  transition:.3s;
+}
+
+.nav-links a:hover{
+  color:#fff;
+}
