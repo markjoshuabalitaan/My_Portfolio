@@ -174,3 +174,30 @@ section{
   margin-bottom:50px;
   max-width:700px;
 }
+
+.about-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:70px;
+  flex-wrap:wrap;
+}
+
+.about-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.about-text,
+.motor-wrapper{
+  flex:1;
+  min-width:320px;
+}
+
+.about-text p{
+  color:#cfcfcf;
+  line-height:2;
+  margin-bottom:20px;
+  max-width:650px;
+}
