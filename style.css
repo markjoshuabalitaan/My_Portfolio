@@ -139,3 +139,10 @@ section{
   background:#fff;
   color:#000;
 }
+
+.hero-image{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  min-width:300px;
+}
