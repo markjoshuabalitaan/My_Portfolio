@@ -382,3 +382,21 @@ section{
 .contact-item a:hover{
   text-decoration:underline;
 }
+
+.footer{
+  text-align:center;
+  padding:30px;
+  color:#8d8d8d;
+  border-top:1px solid rgba(255,255,255,0.05);
+}
+
+.fade-up{
+  opacity:0;
+  transform:translateY(40px);
+  transition:all 1s ease;
+}
+
+.fade-up.active{
+  opacity:1;
+  transform:translateY(0);
+}
