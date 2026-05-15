@@ -400,3 +400,23 @@ section{
   opacity:1;
   transform:translateY(0);
 }
+
+@media(max-width:900px){
+
+  .hero-text h1{
+    font-size:3rem;
+  }
+
+  .about-container,
+  .contact-container{
+    grid-template-columns:1fr;
+  }
+
+  .nav-links{
+    display:none;
+  }
+
+  section{
+    padding:100px 6%;
+  }
+}
