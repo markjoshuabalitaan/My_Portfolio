@@ -105,3 +105,37 @@ section{
   margin-bottom:30px;
   max-width:600px;
 }
+
+.hero-buttons{
+  display:flex;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  padding:14px 28px;
+  border-radius:50px;
+  text-decoration:none;
+  transition:.3s;
+  font-weight:600;
+}
+
+.btn-primary{
+  background:#8c52ff;
+  color:#fff;
+}
+
+.btn-primary:hover{
+  background:#a26fff;
+  transform:translateY(-2px);
+}
+
+.btn-outline{
+  border:1px solid rgba(255,255,255,0.2);
+  color:#fff;
+}
+
+.btn-outline:hover{
+  background:#fff;
+  color:#000;
+}
