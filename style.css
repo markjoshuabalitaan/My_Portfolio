@@ -162,3 +162,15 @@ section{
   height:100%;
   object-fit:cover;
 }
+
+.section-title{
+  font-size:2.5rem;
+  margin-bottom:20px;
+}
+
+.section-sub{
+  color:#b8b8b8;
+  line-height:1.7;
+  margin-bottom:50px;
+  max-width:700px;
+}
